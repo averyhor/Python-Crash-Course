@@ -16,3 +16,16 @@ print(full.title())
 quote = '"A person who never made a mistake never tried anything new."'
 author = "albert einstein"
 print(f"{author.title()} once said, {quote}")
+
+#2-7 Stripping Names
+name_1 = "  avery "
+name_2 = "  hor   "
+print(f"\t{name_1}\n\t{name_2}")
+print(name_1.lstrip())
+print(name_2.rstrip())
+print(f"{name_1.strip()} {name_2.strip()}")
+
+#2-8 File Extensions
+filename = "python_notes.txt"
+new_filename = filename.removesuffix(".txt")
+print(new_filename)
